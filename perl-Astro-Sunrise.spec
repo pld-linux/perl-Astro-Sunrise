@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	Astro
 %define	pnam	Sunrise
 Summary:	Astro::Sunrise - Perl extension for computing the sunrise/sunset on a given day
